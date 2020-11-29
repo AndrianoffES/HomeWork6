@@ -1,0 +1,116 @@
+.mainNav {
+    margin-top: 71px;
+    padding-bottom: 71px;
+
+    ul {
+        display: block;
+        list-style-type: none;
+
+        li {
+            float: left;
+            padding-right: 30px;
+            box-sizing: border-box;
+
+            a {
+                text-decoration: none;
+                color: #6c6c6c;
+                font-size: 18px;
+                font-weight: 700;
+            }
+
+            a:hover {
+                border-bottom: 3px solid black;
+                color: #212121;
+
+            }
+        }
+    }
+}
+
+.grid {
+    clear: both;
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-template-rows: repeat(4, 370px);
+    grid-gap: 30px;
+   
+}
+
+.refresh {
+    width: 42px;
+    height: 29px;
+    margin: 0 auto;
+    margin-top: 71px;
+    margin-bottom: 140px;
+
+    button {
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+}
+
+
+.exclusiveGrid {
+
+    height: 683px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.offer1 {
+    background: url(../Img/promo-img1.jpg) no-repeat;
+}
+
+.offer2 {
+    background: url(../Img/promo-img.jpg) no-repeat;
+}
+
+.offer1Wrap,
+.offer2Wrap {
+    width: 378px;
+    height: 205px;
+    margin-top: 228px;
+    margin-left: 50px;
+
+    .offerTextTitle1 {
+        color: #1e88e5;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 48px;
+        text-transform: uppercase;
+    }
+
+    .offerTextTitle2 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .offerText {
+        margin-top: 24px;
+        color: #6c6c6c;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24.04px;
+    }
+
+    button {
+        margin-top: 34px;
+        width: 212px;
+        height: 46px;
+        box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+        border-radius: 23px;
+        border: none;
+        background-color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24.04px;
+        outline: none;
+        cursor: pointer;
+        i{
+              font-size: 16px;
+        }
+    }
+}
